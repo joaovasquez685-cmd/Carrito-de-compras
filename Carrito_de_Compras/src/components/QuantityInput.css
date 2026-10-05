@@ -1,0 +1,81 @@
+.quantity-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 0.25rem;
+}
+
+.quantity-input.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.qty-button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: white;
+  border-radius: 6px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #667eea;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.qty-button:hover:not(:disabled) {
+  background: #667eea;
+  color: white;
+  transform: scale(1.05);
+}
+
+.qty-button:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.qty-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.qty-field {
+  width: 60px;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: white;
+  color: #2d3436;
+  transition: all 0.2s ease;
+}
+
+.qty-field:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.qty-field:disabled {
+  background: #dfe6e9;
+  cursor: not-allowed;
+}
+
+/* Eliminar flechas del input en Chrome, Safari, Edge */
+.qty-field::-webkit-outer-spin-button,
+.qty-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Eliminar flechas en Firefox */
+.qty-field[type=number] {
+  -moz-appearance: textfield;
+}

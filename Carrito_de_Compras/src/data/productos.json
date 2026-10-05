@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Café de Huila 500 g",
+      "precio": 28500,
+      "stock": 8,
+      "imagen": "https://kaldiviacafe.com/wp-content/uploads/2023/09/157395-2.png",
+      "descripcion": "Café 100% colombiano, tostado y molido"
+    },
+    {
+      "id": 2,
+      "nombre": "Panela orgánica 1 kg",
+      "precio": 9800,
+      "stock": 3,
+      "imagen": "https://mimercadosaludable.com/1396-large_default/panela-organica-1-kg-pulverizada-asopropanoc.jpg",
+      "descripcion": "Panela artesanal de caña de azúcar"
+    },
+    {
+      "id": 3,
+      "nombre": "Arepa de choclo x6",
+      "precio": 12000,
+      "stock": 12,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_823982-MCO78592422786_082024-F.webp",
+      "descripcion": "Deliciosas arepas de choclo listas para hornear"
+    },
+    {
+      "id": 4,
+      "nombre": "Chocolate de mesa",
+      "precio": 15400,
+      "stock": 1,
+      "imagen": "https://delicao.com.co/wp-content/uploads/2025/07/Chocolate_mesa_200-001.webp",
+      "descripcion": "Chocolate tradicional para mesa"
+    },
+    {
+      "id": 5,
+      "nombre": "Bocadillo veleño",
+      "precio": 6500,
+      "stock": 20,
+      "imagen": "https://artesaniasdecolombia.com.co/Documentos/Contenido/25884_denominacion-origen-bocadillo-veleno-artesanias-colombia-2017-g.jpg",
+      "descripcion": "Bocadillo de guayaba tradicional"
+    },
+    {
+      "id": 6,
+      "nombre": "Aguardiente 750 ml",
+      "precio": 62000,
+      "stock": 5,
+      "imagen": "https://olimpica.vtexassets.com/arquivos/ids/1853278-800-auto?v=638827928606630000&width=800&height=auto&aspect=true",
+      "descripcion": "Aguardiente antioqueño sin azúcar"
+    }
+  ]
+}
